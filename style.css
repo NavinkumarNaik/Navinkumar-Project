@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: black;
+    align-items: center;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar {
+    margin-left: -8px;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    padding: 10px 20px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+    width: 270px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.container-box {
+    width: 100%;
+    display: flex;
+    background-color: #F3F3F3;
+    margin: 0px;
+    margin-top: 80px;
+    
+}
+
+.box {
+    flex: 1;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    height: 400px;
+    margin-top: -25px;
+    z-index: 1;
+}
+
+.image-box .img2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 31%;
+    left: 95%;
+    z-index: 1;
+    transform: translate(-46%, -50%);
+}
+
+.image-box .img3 {
+    height: 107px;
+    width: 150px;
+    position: absolute;
+    top: 71%;
+    left: 68%;
+    z-index: 1;
+    transform: translate(-49%, -49%) rotate(-0deg);
+}
+
+.image-box .img4 {
+    height: 120px;
+    width: 190px;
+    position: absolute;
+    top: 59%;
+    left: 59%;
+    z-index: 1;
+    transform: translate(-36%, -50%) rotate(-5deg);
+}
+
+.image-box .img5 {
+    height: 232px;
+    width: 241px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-33%, -50%) rotate(-9deg);
+}
+
+.image-box .img6 {
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    top: 65%;
+    left: 58%;
+    z-index: 1;
+    transform: translate(-50%, -50%) rotate(1deg);
+}
+
+.image-box .img7 {
+    height: 85px;
+    width: 105px;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    z-index: 2;
+    transform: translate(-49%, -50%) rotate(-0deg);
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-box .img8 {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    z-index: 2;
+    transform: translate(-47%, -50%) rotate(-0deg);
+}
+
+.text-box .img9 {
+    height: 150px;
+    width: 65px;
+    position: absolute;
+    top: 65%;
+    left: 41%;
+    z-index: 2;
+    transform: translate(-47%, -50%) rotate(-90deg);
+}
+
+.text-box .img10 {
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    top: 56%;
+    left: 2%;
+    z-index: 2;
+    transform: translate(-50%, -50%) rotate(-0deg);
+}
+
+.text-box .img11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    z-index: 2;
+    transform: translate(-47%, -50%) rotate(-0deg);
+}
+
+.text-box h1 {
+    margin: 0 0 10px 0;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 60px;
+    text-align: left;
+}
+
+.text-box p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 50px;
+    font-size: 16px;
+}
+
+/* Tablet Responsive Styles */
+@media (max-width:900px)and (min-width:768px){
+    .navbar img {
+        width: 200px;
+        height: 56px;
+        margin-left: 20px;
+    }
+
+    .container-box {
+        flex-direction: unset;
+        margin-top: 70px;
+        display: flex;
+    }
+
+    .image-box img {
+        height: 300px;
+    }
+    .image-box .img7 {
+    height: 39px;
+    width: 55px;
+    position: absolute;
+    top: 10%;
+    left: 54%;
+    z-index: 2;
+    transform: translate(-49%, -50%) rotate(-0deg);}
+    .image-box .img5 {
+        height: 162px;
+        width: 172px;
+        position: absolute;
+        top: 12%;
+        left: 49%;
+        z-index: 1;
+        transform: translate(-33%, -50%) rotate(-9deg);
+    }
+    .image-box .img2 {
+        height: 166px;
+        width: 127px;
+        position: absolute;
+        top: 15%;
+        left: 95%;
+        z-index: 1;
+        transform: translate(-46%, -50%);
+    }
+    .image-box .img4 {
+        height: 92px;
+        width: 119px;
+        position: absolute;
+        top: 24%;
+        left: 59%;
+        z-index: 1;
+        transform: translate(-36%, -50%) rotate(-5deg);
+    }
+    .image-box .img3 {
+        height: 84px;
+        width: 125px;
+        position: absolute;
+        top: 29%;
+        left: 68%;
+        z-index: 1;
+        transform: translate(-50%, -50%) rotate(-0deg);
+    }
+    .image-box .img6 {
+        height: 29px;
+        width: 41px;
+        position: absolute;
+        top: 29%;
+        left: 61%;
+        z-index: 1;
+        transform: translate(-50%, -50%) rotate(1deg);
+    }
+    .text-box .img8 {
+        height: 79px;
+        width: 34px;
+        position: absolute;
+        top: 18%;
+        left: 3%;
+        z-index: 2;
+        transform: translate(-47%, -50%) rotate(-0deg);
+    }
+    .text-box .img10 {
+        height: 121px;
+        width: 61px;
+        position: absolute;
+        top: 26%;
+        left: 2%;
+        z-index: 2;
+        transform: translate(-50%, -50%) rotate(-0deg);
+    }
+        .text-box .img9 {
+            height: 139px;
+            width: 55px;
+            position: absolute;
+            top: 30%;
+            left: 41%;
+            z-index: 2;
+            transform: translate(-47%, -50%) rotate(-90deg);
+        }
+
+        .text-box .img11 {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            top: 10%;
+            left: 30%;
+            z-index: 2;
+            transform: translate(-47%, -50%) rotate(-0deg);
+        }
+        /* @media screen and (min-device-width : 320px) and (max-device-width : 480px) */
+        /* @media only screen and (max-device-width: 480px) */
+        /* @media (min-width: 320px) and (max-width: 480px) */
+         /* @media (max-width:750px)       */
+           @media only screen and (max-width: 480px) 
+        {
+            .container-box {
+                width: 100%;
+                display: grid;
+            }
+
+        }
+        
+
+
+/////// I am facing mobile media query problem in my pc
+
+
+
+
+    
+
+    .text-box {
+        text-align: top;
+    }
+
+    .text-box h1 {
+        font-size: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: left;
+        
+    }
+
+    .text-box p {
+        font-size: 12px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: left;
+    }
+}
+
+
+
+
+
+.container-box1{
+    display: flex;
+    padding: 50px 50px ;
+}
+.box1.text-box1{
+    width: 100%;
+    padding-left:140px;
+    padding-right: 60px;
+}
+h1 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+.form-box {
+    padding: 20px;
+    border: 1px solid rgb(78, 76, 76);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(75, 72, 72, 0.1);
+}
+
+input, select {
+    width: calc(100% - 22px); /* Adjust for padding and border */
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    background-color: #FF9A00;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.checkbox-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 22px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input1 {
+    display: flex;
+    column-gap: 1cap;
+  }
+.inputjob{
+    display: flex;
+    column-gap: 1cap;
+}
+.input3{
+    display: flex;
+    column-gap: 1cap;
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+}
+input#agree {
+    height: 18px;
+    margin-left: -75px;
+    margin-right: -55px;
+}
+.img13 {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 135%;
+    left: 0%;
+}
+.img14 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 132%;
+    left: 42%;
+}
+
+
+@media (max-width:900px) and (min-width:768px){
+    .container-box1 {
+        display: flex;
+        padding: 30px 15px;
+        height: 700PX;
+    }
+    
+    .box1.text-box1 {
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 12px;
+    }
+    .img13 {
+        height: 176PX;
+        width: 185PX;
+        position: absolute;
+        top: 84%;
+        left: 0%;
+    }
+    .img14 {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top: 82%;
+        left: 30%;
+    }
+    input#agree {
+        height: 18px;
+        margin-left: -56px;
+        margin-right: -41px;
+    }
+}
+
+
+.section {
+    position: relative;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-bottom: -11px;
+    padding: 50px;
+    width: 95%;
+    height: 170px;
+    background: url('Images/Student-Experience-Cover-2.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 95, 129, 0.5); 
+    z-index: 1;
+}
+
+.section > * {
+    position: relative;
+    z-index: 2;
+}
+
+.title, .description {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    padding: 0px 60px;
+    text-align: center;
+    font-weight: 100;
+  }
